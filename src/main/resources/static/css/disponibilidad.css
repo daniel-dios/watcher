@@ -1,0 +1,145 @@
+table.reservas {
+    font-family: verdana, arial, sans-serif;
+    font-size: 11px;
+    color: #333333;
+    border-width: 1px;
+    border-color: #666666;
+    border-collapse: collapse;
+}
+
+table.reservas td {
+    border-color: white;
+    border-radius: 10px;
+    border-style: solid;
+    border-width: 4px;
+    max-width: 160px;
+    text-align: center;
+    padding: 5px 19px;
+    user-select: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    -o-user-select: none;
+}
+
+table.reservas th {
+    border-color: white;
+    border-radius: 10px;
+    border-style: solid;
+    border-width: 4px;
+    max-width: 160px;
+    text-align: center;
+    padding: 5px 19px;
+    user-select: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    -o-user-select: none;
+}
+
+.reservas td.fecha {
+    text-align: center;
+}
+
+.reservas td.flecha {
+    text-align: center;
+}
+
+.reservas td.sin_hora {
+    border-style: none;
+    text-align: center;
+}
+
+td.pie {
+    background-color: #ffffff;
+}
+
+td.libre {
+    cursor: pointer;
+    background-color: white;
+    color: black;
+}
+
+td.Tierra {
+    cursor: pointer;
+    background-color: #FFCC99;
+    color: black;
+}
+
+td.Quick {
+    cursor: pointer;
+    background-color: #CCFF99;
+    color: black;
+}
+
+td.Padel {
+    cursor: pointer;
+    background-color: #99CCFF;
+    color: black;
+}
+
+th.libre {
+    cursor: pointer;
+    background-color: white;
+    color: black;
+}
+
+th.Tierra {
+    cursor: pointer;
+    background-color: #FFCC99;
+    color: black;
+}
+
+th.Quick {
+    cursor: pointer;
+    background-color: #CCFF99;
+    color: black;
+}
+
+th.Padel {
+    cursor: pointer;
+    background-color: #99CCFF;
+    color: black;
+}
+
+
+td.ocupado {
+    background-color: red;
+}
+
+td.planificado {
+    background-color: #b35bf1;
+}
+
+td.primero {
+    cursor: pointer;
+    background-color: blue;
+    color: white;
+}
+
+td.propio {
+    background-color: blue;
+    color: white;
+}
+
+td.horas {
+    cursor: pointer;
+    background-color: #66CC33;
+    color: white;
+}
+
+th.horas {
+    cursor: pointer;
+    background-color: #66CC33;
+    color: black;
+}
+
+td.tipo_pista {
+    border-style: none;
+    text-align: center;
+}
+
+td.espacio {
+    border-style: hidden;
+    background-color: #E8E8E8;
+}
