@@ -2,7 +2,7 @@ package com.tennisbooker.watcher.usecase
 
 import java.net.URL
 
-class LegacyService(private val httpHelper : HttpHelper) {
+class LegacyService(private val httpHelper: HttpHelper) {
 
     fun getBookings(date: String?, endpoint: String, paramNameForDate: String): String {
         val htmlResponse = httpHelper.get(getUrl(date))
