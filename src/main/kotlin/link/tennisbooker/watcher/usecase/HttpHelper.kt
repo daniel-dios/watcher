@@ -1,4 +1,4 @@
-package com.tennisbooker.watcher.usecase
+package link.tennisbooker.watcher.usecase
 
 import java.io.BufferedReader
 import java.io.InputStreamReader

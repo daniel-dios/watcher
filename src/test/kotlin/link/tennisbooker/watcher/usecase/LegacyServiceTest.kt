@@ -1,4 +1,4 @@
-package com.tennisbooker.watcher.usecase
+package link.tennisbooker.watcher.usecase
 
 import org.assertj.core.api.Assertions.assertThat
 import org.junit.jupiter.api.Test

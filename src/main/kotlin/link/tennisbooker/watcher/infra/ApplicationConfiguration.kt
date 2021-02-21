@@ -1,7 +1,7 @@
-package com.tennisbooker.watcher.infra
+package link.tennisbooker.watcher.infra
 
-import com.tennisbooker.watcher.usecase.HttpHelper
-import com.tennisbooker.watcher.usecase.LegacyService
+import link.tennisbooker.watcher.usecase.HttpHelper
+import link.tennisbooker.watcher.usecase.LegacyService
 import org.springframework.context.annotation.Bean
 import org.springframework.context.annotation.ComponentScan
 import org.springframework.context.annotation.Configuration

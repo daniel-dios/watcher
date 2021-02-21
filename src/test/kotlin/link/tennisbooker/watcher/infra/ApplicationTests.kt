@@ -1,4 +1,4 @@
-package com.tennisbooker.watcher.infra
+package link.tennisbooker.watcher.infra
 
 import org.junit.jupiter.api.Test
 import org.springframework.boot.test.context.SpringBootTest

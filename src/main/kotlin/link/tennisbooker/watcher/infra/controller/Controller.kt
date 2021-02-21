@@ -1,11 +1,10 @@
-package com.tennisbooker.watcher.infra.controller
+package link.tennisbooker.watcher.infra.controller
 
-import com.tennisbooker.watcher.usecase.LegacyService
+import link.tennisbooker.watcher.usecase.LegacyService
 import org.springframework.http.MediaType
 import org.springframework.web.bind.annotation.GetMapping
 import org.springframework.web.bind.annotation.RequestParam
 import org.springframework.web.bind.annotation.RestController
-
 
 @RestController
 class Controller private constructor(val legacyService: LegacyService) {
