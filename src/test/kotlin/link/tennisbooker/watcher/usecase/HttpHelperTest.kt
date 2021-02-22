@@ -10,10 +10,7 @@ internal class HttpHelperTest {
     internal fun shouldReturnHtml() {
         val actual = HttpHelper().get(URL("http://www.google.com"))
 
-        assertThat(actual).contains(
-            """
-            <!doctype html><html itemscope="" itemtype="http://schema.org/WebPage" lang="es"><head><meta content=
-                    """.trimIndent()
+        assertThat(actual).contains("<!doctype html>"
         )
     }
 }
